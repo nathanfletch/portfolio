@@ -16,6 +16,16 @@
   
 }
 
+.box-demo {
+  box-sizing: border-box;
+  width: 80%;
+  margin: auto;
+  height: 100px;
+  padding: 10px;
+  border: solid black 2px;
+  text-align: center;
+}
+
 #jumbo {
   width: 100%;
 }
