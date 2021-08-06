@@ -1,19 +1,19 @@
-# Project Title
-Simple overview of use/purpose.  
+# Personal Portfolio
+A site to showcase my projects and skills. 
 
 ## Author
 Nathan Fletcher
 
 ## Description
 
-This project is an opportunity to showcase my abilities using new tools and technologies including:
+This project is an opportunity to demonstrate my abilities using new tools and technologies including:
 * Git
 * HTML
 * CSS
 * Bootstrap
 
 ## Setup 
-1. Clone the source code from the [repo](https://github.com/nathanfletch/)
+1. Clone the source code from the [repo](https://github.com/nathanfletch/portfolio)
 2. Navigate to the directory on your computer.
 3. Open the index.html file in your browser.
 * Or just check out the final result on [Github Pages](https://nathanfletch/.github.io.com/)
