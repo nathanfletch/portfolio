@@ -1,0 +1,14 @@
+.right-img {
+  width: 20%;
+  float: right;
+  margin-left: 20px;
+}
+
+.back-img {
+  width: 100%;
+  opacity: 40%;
+  overflow:hidden;
+  margin:auto;
+}
+
+/* .card-*/
