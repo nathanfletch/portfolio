@@ -2,13 +2,33 @@
   width: 20%;
   float: right;
   margin-left: 20px;
+  /* padding: 0; */
 }
 
 .back-img {
-  width: 100%;
   opacity: 40%;
-  overflow:hidden;
-  margin:auto;
+  width: 100%;
 }
 
-/* .card-*/
+.card-custom {
+  overflow:hidden;
+  min-height: 500px;
+  
+}
+
+#jumbo {
+  width: 100%;
+}
+
+#about {
+  /* background: white; */
+  background-image: url("../img/forest.jpg"); 
+  /* , linear-gradient(white, lightgrey); */
+  background-size: cover;
+  /* background-color: rgb(255, 255, 255, 0.5); */
+}
+
+#background {
+  background-image: url("../img/water.jpg"); 
+  background-size: cover;
+}

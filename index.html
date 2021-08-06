@@ -8,7 +8,6 @@
   <body>
     <div class="container">
       <!-- todos: 
-    fill in content using designated tags
     box model
     floats (img wrapping)
     custom styling
@@ -16,112 +15,118 @@
     background images?
     animations? -->
 
-      <div class="jumbotron">
-        <h1>Nathan Fletcher</h1>
-      </div>
-      <div class="card img-fluid mb-4" id="projects">
-        <img class="card-img-top back-img" src="img/project.jpg" alt="Card image" />
-        <div class="card-img-overlay">
-          <h2 class="card-title">Projects</h2>
-          <hr />
-          <ul class="card-text">
-            <li class="card-text">
-              <a href="https://github.com/nathanfletch/my-first-webpage"
-                >A Sample Webpage</a
-              >
-              <p>
-                I practiced using <strong>git</strong> and working with a
-                partner on VS Code LiveShare.
-              </p>
-            </li>
-            <li class="card-text">
-              <a href="https://github.com/nathanfletch/resume">Online Resume</a>
-            </li>
-            <li class="card-text">
-              <a href="https://github.com/nathanfletch/shelter"
-                >Animal Shelter</a
-              >
-            </li>
-          </ul>
+      <div class="row">
+        <div class="jumbotron m-3 shadow-sm" id="jumbo">
+          <h1 class="text-center">Nathan Fletcher, <span class="text-primary font-italic">web developer</span></h1>
         </div>
       </div>
-      <div class="card img-fluid mb-4" id="about">
-        <img class="card-img-top back-img" src="img/forest.jpg" alt="Card image" />
-        <div class="card-img-overlay">
-          <h2 class="card-title">About Me</h2>
-          <hr />
-          <p class="card-text">
-            I grew up in the Beaverton-Hillsboro area and currently live near
-            Newberg, Oregon.
-          </p>
-          <img class="right-img" src="img/nathan.jpg" alt="Nathan" />
-          <p class="card-text">
-            I've been living and working in Japan for the last 8 years.
-          </p>
-          <p class="card-text">
-            My primary drive is learning and becoming better. Whether it's
-            improving my shooting percentage in basketball, learning new chords
-            on the piano, or developing new skills to build websites more
-            efficiently, I feel a deep sense of satisfaction from it.
-          </p>
+      <div class="row">
+        <div class="card col-md m-3 shadow-sm bg-light card-custom" id="projects">
+          <!-- <img class="card-img back-img" " src="img/project.jpg" alt="Card image" /> -->
+          <div class="card-img-overlay">
+            <h2 class="card-title">Projects</h2>
+            <hr />
+            <ul class="card-text">
+              <li class="card-text">
+                <a href="https://github.com/nathanfletch/my-first-webpage"
+                  >A Sample Webpage</a
+                >
+                <p>
+                  I practiced using <strong>git</strong> and working with a
+                  partner on VS Code LiveShare.
+                </p>
+              </li>
+              <li class="card-text">
+                <a href="https://github.com/nathanfletch/resume">Online Resume</a>
+              </li>
+              <li class="card-text">
+                <a href="https://github.com/nathanfletch/shelter"
+                  >Animal Shelter</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- hometown, img of me,  -->
-      </div>
-      <div class="card img-fluid mb-4" id="background">
-        <img class="card-img-top back-img" src="img/water.jpg" alt="Card image" />
-        <div class="card-img-overlay">
-          <h2 class="card-title">Background</h2>
-          <hr />
-          <p class="card-text">My jobs in Japan included:</p>
-          <ul class="card-text">
-            <li>
-              Data generation for natural language processing machine learning
-              algorithms.
-            </li>
-            <li>Teaching</li>
-            <li>Japanese-English Translation</li>
-          </ul>
-          <p class="card-text">
-            These were interesting jobs, but I often found myself supporting
-            engineers and developers through data generation and translating
-            research papers.
-          </p>
-          <p>
-            But I wanted to get off the sidelines and get in the driver's seat.
-          </p>
-          <p>To create and build things myself.</p>
+        <div class="card col-md img-fluid m-3 shadow-sm card-custom text-light" id="about">
+          <div class="card-img-overlay">
+            <h2 class="card-title">About Me</h2>
+            <hr />
+            <p class="card-text">
+              I grew up in the Beaverton-Hillsboro area and currently live near
+              Newberg, Oregon.
+            </p>
+            <img class="right-img" src="img/nathan.jpg" alt="Nathan" />
+            <p class="card-text">
+              I've been living and working in Japan for the last 8 years.
+            </p>
+            <p class="card-text">
+              My primary drive is learning and becoming better. Whether it's
+              improving my shooting percentage in basketball, learning new chords
+              on the piano, or developing new skills to build websites more
+              efficiently, I feel a deep sense of satisfaction from it.
+            </p>
+          </div>
+          <!-- hometown, img of me,  -->
         </div>
-      </div>
-      <div class="card img-fluid mb-4" id="skills">
-        <img class="card-img-top back-img" src="img/sky.jpg" alt="Card image" />
 
-        <div class="card-img-overlay">
-          <h2 class="card-text">Leveling Up</h2>
-          <hr />
-          <p class="card-text">
-            Learning is a never-ending process, so here's how I would rank my
-            development-related skills at the moment:
-          </p>
-          <ol class="card-text">
-            <li>HTML: 7/10</li>
-            <li>Javascript: 7/10</li>
-            <li>CSS:5/10</li>
-            <li>React: 4/10</li>
-          </ol>
-          <p class="card-text">
-            I'm excited to keep learning and developing all of these skills.
-          </p>
-          <!-- icons -->
+      </div>
+
+      <div class="row">
+        <div class="card col-md img-fluid m-3 shadow-sm text-light card-custom" id="background">
+          <!-- <img class="card-img back-img" src="img/water.jpg" alt="Card image" /> -->
+          <div class="card-img-overlay">
+            <h2 class="card-title">Background</h2>
+            <hr />
+            <p class="card-text">My jobs in Japan included:</p>
+            <ul class="card-text">
+              <li>
+                Data generation for natural language processing machine learning
+                algorithms.
+              </li>
+              <li>Teaching</li>
+              <li>Japanese-English Translation</li>
+            </ul>
+            <p class="card-text">
+              These were interesting jobs, but I often found myself supporting
+              engineers and developers through data generation and translating
+              research papers.
+            </p>
+            <p>
+              But I wanted to get off the sidelines and get in the driver's seat.
+            </p>
+            <p>To <em>create</em> and <em>build</em> things myself.</p>
+          </div>
+        </div>
+        <div class="card col-md img-fluid m-3 shadow-sm card-custom" id="skills">
+          <img class="card-img back-img" src="img/sky.jpg" alt="Card image" />
+          <div class="card-img-overlay">
+            <h2 class="card-text">Leveling Up</h2>
+            <hr />
+            <p class="card-text">
+              Learning is a never-ending process, so here's how I would rank my
+              development-related skills at the moment:
+            </p>
+            <ol class="card-text">
+              <li>HTML: 7/10</li>
+              <li>Javascript: 7/10</li>
+              <li>CSS: 5/10</li>
+              <li>React: 4/10</li>
+            </ol>
+            <p class="card-text">
+              I'm excited to keep learning and developing all of these skills.
+            </p>
+            <!-- icons -->
+          </div>
         </div>
       </div>
-      <div class="card mb-4" id="interests">
-        <img class="card-img-top back-img" src="img/piano.jpg" alt="Card image" />
+
+      <!-- <div class="card m-3 shadow-sm card-custom" id="interests">
+        <img class="card-img back-img" src="img/piano.jpg" alt="Card image" />
         <div class="card-img-overlay">
           <h2 class="card-title">Interests</h2>
           <hr />
           <p class="card-text">
-            My primary interest at the moment is programming, of course, but my
-            non-programming interests include:
+            My primary interest at the moment is programming, of course, but my non-programming interests include:
           </p>
           <ul class="card-text">
             <li>Basketball</li>
@@ -129,7 +134,7 @@
             <li>Video Games</li>
           </ul>
         </div>
-      </div>
+      </div> -->
     </div>
   </body>
 </html>
