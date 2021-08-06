@@ -7,14 +7,6 @@
   </head>
   <body>
     <div class="container">
-      <!-- todos: 
-    box model
-    floats (img wrapping)
-    custom styling
-    navbar?
-    background images?
-    animations? -->
-
       <div class="row">
         <div class="jumbotron m-3 shadow-sm" id="jumbo">
           <h1 class="text-center">
@@ -28,41 +20,45 @@
           class="card col-md m-3 shadow-sm bg-light card-custom"
           id="projects"
         >
-          <!-- <img class="card-img back-img" " src="img/project.jpg" alt="Card image" /> -->
-          <div class="card-img-overlay">
+          <div class="card-body">
             <h2 class="card-title">Projects</h2>
             <hr />
             <ul class="card-text">
               <li class="card-text">
-                <a href="https://github.com/nathanfletch/my-first-webpage"
-                  >A Sample Webpage</a
-                >
+                <a href="https://github.com/nathanfletch/my-first-webpage" target="blank">
+                  A Sample Webpage
+                </a>
                 <p>
                   I practiced using <strong>git</strong> and working with a
                   partner on VS Code LiveShare.
                 </p>
               </li>
               <li class="card-text">
-                <a href="https://github.com/nathanfletch/resume"
-                  >Online Resume</a
-                >
+                <a href="https://github.com/nathanfletch/resume" target="blank">
+                  Online Resume
+                </a>
                 <p>I practiced basic <strong>CSS</strong> styling.</p>
               </li>
               <li class="card-text">
-                <a href="https://github.com/nathanfletch/shelter"
-                  >Animal Shelter</a
-                >
-                <p>I practiced the <strong>box model</strong> and <strong>centering</strong> as demonstrated here:</p>
+                <a href="https://github.com/nathanfletch/shelter" target="blank">
+                  Animal Shelter
+                </a>
+                <p>
+                  I practiced the <strong>box model</strong> and
+                  <strong>centering</strong> as demonstrated here:
+                </p>
               </li>
             </ul>
-            <div class="box-demo">A beautiful centered box with centered text!</div>
+            <div class="box-demo">
+              A beautiful centered box with centered text!
+            </div>
           </div>
         </div>
         <div
-          class="card col-md img-fluid m-3 shadow-sm card-custom text-light"
+          class="card col-md m-3 shadow-sm card-custom text-light"
           id="about"
         >
-          <div class="card-img-overlay">
+          <div class="card-body">
             <h2 class="card-title">About Me</h2>
             <hr />
             <p class="card-text">
@@ -74,23 +70,23 @@
               I've been living and working in Japan for the last 8 years.
             </p>
             <p class="card-text">
-              My primary drive is learning and becoming better. Whether it's
-              improving my shooting percentage in basketball, learning new
-              chords on the piano, or developing new skills to build websites
-              more efficiently, I feel a deep sense of satisfaction from it.
+              My primary drive is learning and becoming better.
+            </p>
+            <p class="card-text">
+              I feel a deep sense of satisfaction from improvement, whether it's
+              my shooting percentage in basketball, learning new chords on the
+              piano, or learning to build web sites more efficiently.
             </p>
           </div>
-          <!-- hometown, img of me,  -->
         </div>
       </div>
 
       <div class="row">
         <div
-          class="card col-md img-fluid m-3 shadow-sm text-light card-custom"
+          class="card col-md m-3 shadow-sm text-light card-custom"
           id="background"
         >
-          <!-- <img class="card-img back-img" src="img/water.jpg" alt="Card image" /> -->
-          <div class="card-img-overlay">
+          <div class="card-body">
             <h2 class="card-title">Background</h2>
             <hr />
             <p class="card-text">My jobs in Japan included:</p>
@@ -104,26 +100,27 @@
             </ul>
             <p class="card-text">
               These were interesting jobs, but I often found myself supporting
-              engineers and developers through data generation and translating
+              engineers and developers through curating data and translating
               research papers.
             </p>
             <p>
-              But I wanted to get off the sidelines and get in the driver's
+              So I decided to get off the sidelines and get in the driver's
               seat.
             </p>
-            <p>To <em>create</em> and <em>build</em> things myself.</p>
+            <p>And start <em>creating</em> and <em>building</em> things myself.</p>
           </div>
         </div>
-        <div
-          class="card col-md img-fluid m-3 shadow-sm card-custom"
-          id="skills"
-        >
-          <img class="card-img back-img" src="img/sky.jpg" alt="Card image" />
-          <div class="card-img-overlay">
+        <div class="card col-md m-3 shadow-sm card-custom" id="skills">
+          <img
+            class="card-img-top mt-3"
+            src="img/sky.jpg"
+            alt="A picture of the sky"
+          />
+          <div class="card-body">
             <h2 class="card-text">Leveling Up</h2>
             <hr />
             <p class="card-text">
-              Learning is a never-ending process, so here's how I would rank my
+              Learning is a never-ending process, but here's how I would rank my
               development-related skills at the moment:
             </p>
             <ol class="card-text">
@@ -133,28 +130,11 @@
               <li>React: 4/10</li>
             </ol>
             <p class="card-text">
-              I'm excited to keep learning and developing all of these skills.
+              I'm excited to keep leveling up these skills and adding new ones.
             </p>
-            <!-- icons -->
           </div>
         </div>
       </div>
-
-      <!-- <div class="card m-3 shadow-sm card-custom" id="interests">
-        <img class="card-img back-img" src="img/piano.jpg" alt="Card image" />
-        <div class="card-img-overlay">
-          <h2 class="card-title">Interests</h2>
-          <hr />
-          <p class="card-text">
-            My primary interest at the moment is programming, of course, but my non-programming interests include:
-          </p>
-          <ul class="card-text">
-            <li>Basketball</li>
-            <li>Piano</li>
-            <li>Video Games</li>
-          </ul>
-        </div>
-      </div> -->
     </div>
   </body>
 </html>

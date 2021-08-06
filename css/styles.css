@@ -1,19 +1,12 @@
 .right-img {
   width: 20%;
+  min-width: 100px;
   float: right;
   margin-left: 20px;
-  /* padding: 0; */
-}
-
-.back-img {
-  opacity: 40%;
-  width: 100%;
 }
 
 .card-custom {
-  overflow:hidden;
   min-height: 500px;
-  
 }
 
 .box-demo {
@@ -31,11 +24,8 @@
 }
 
 #about {
-  /* background: white; */
   background-image: url("../img/forest.jpg"); 
-  /* , linear-gradient(white, lightgrey); */
   background-size: cover;
-  /* background-color: rgb(255, 255, 255, 0.5); */
 }
 
 #background {
