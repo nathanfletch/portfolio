@@ -16,7 +16,7 @@ This project is an opportunity to demonstrate my abilities using new tools and t
 1. Clone the source code from the [repo](https://github.com/nathanfletch/portfolio)
 2. Navigate to the directory on your computer.
 3. Open the index.html file in your browser.
-* Or just check out the final result on [Github Pages](https://nathanfletch/portfolio.github.io.com/)
+* Or just check out the final result on [Github Pages](https://nathanfletch.github.io/portfolio/)
 
 ## License
  
