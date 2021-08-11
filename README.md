@@ -1,53 +1,52 @@
-
 # Personal Portfolio
-A site to showcase my projects and skills. 
+
+A site to showcase my projects and skills.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/nathan_fletcher.svg?style=social&label=Follow%20%40nathan_fletcher)](https://twitter.com/nathan_fletcher)
 
 ## Author
----
+
 Nathan Fletcher
 
 ## Description
----
 
 This project is an opportunity to demonstrate my abilities using new tools and technologies
 
 ## Techonologies used:
----
-* Git
-* HTML
-* CSS
-* Bootstrap
 
-## Setup 
----
+- Git
+- HTML
+- CSS
+- Bootstrap
+
+## Setup
+
 1. Clone the source code from the [repo](https://github.com/nathanfletch/portfolio)
 2. Navigate to the directory on your computer.
 3. Open the index.html file in your browser.
-* Or just check out the final result on [Github Pages](https://nathanfletch.github.io/portfolio/)
+
+- Or just check out the final result on [Github Pages](https://nathanfletch.github.io/portfolio/)
 
 ## Known Bugs
----
-There are no known bugs at this time. 
+
+There are no known bugs at this time.
 
 ## Future Plans
----
+
 Additional features will be implemented such as:
-* CSS animation
-* Interactive elements 
-* Links to additional projects
+
+- CSS animation
+- Interactive elements
+- Links to additional projects
 
 ## Contact
----
+
 The best way to reach me is by [email](mailto:nathan.fletcher@gmail.com).
 
-
 ## License
----
- 
+
 The MIT License (MIT)
 
 Copyright (c) 2021 Nathan Fletcher
